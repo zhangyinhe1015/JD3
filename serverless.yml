@@ -21,13 +21,13 @@ inputs:
     - timer:  #燃动夏季
         parameters:
           name: feedPets_moneyTree_plantBean_dreamFactory_jdfactory_healthenergy
-          cronExpression: "12 9,11,13,15,17 * * *"
+          cronExpression: "0 33 0,6-23/1 * * * "
           enable: true
           argument: jd_summer_movement
     - timer: #燃动夏季领取会员奖励（一次性）
         parameters:
           name: pigPet_syj_kd_jdzz_nzmh_necklace_nzmh_djjl_ddly_lsj
-          cronExpression: "12 9,11,13,15,17 * * *"
+          cronExpression: "0 33 0,6-23/1 * * * "
           enable: true
           argument: jd_summer_movement_card
   environment: #  环境变量
