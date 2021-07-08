@@ -6,7 +6,7 @@
  const notify = $.isNode() ? require('./sendNotify') : '';
  const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
  const MovementFaker = require('./MovementFaker.js');
- $.inviteList = [{inviteId:'HcmphLbwLg_yf4KYRNY21UQyRD3udwo8vm1_no81YFncraNN2KEnLDkJ3x8CY_wPs9W0ngJsL5M1Xnf6SUaDNg'}];
+ $.inviteList = [{inviteId:'HcmphLbwLg6iLNXMRII23wnL58pkr7vHObrVxOsDtgvgoz-PMsRkJ_P3YviIKm9FUnkzNzPogFhpAJGXnMwd5w','HcmphDko0d8V_lYsl9Yz10CASfJjD2BuSEg0awFUb6dWweJFYbbWzJXX3oN9zzmtGa1e5Nyl9shm','HcmphKX9H1L2f4ObEph_mlfsDwLJlMbThzEDU621Qrf4wWBJ7wmDbF5thxPIGSU','HcmphO2nRA-qe4WYFN0zucrLQpjY_Oe3EbfrIE7JuJYJbZoQCb-g-srr2FS44B69Apj8z5BA0fV5',}];
  let uuid = 8888;
  let cookiesArr = [];
  if ($.isNode()) {
